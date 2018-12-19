@@ -1,0 +1,148 @@
+body {
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  top: 0px;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  z-index: 1;
+  width: 100%;
+  background-color: black;
+  /*margin: 0 auto;*/
+  justify-content: space-between;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+  justify-content: flex-start;
+  margin-right: 500px:
+}
+
+nav {
+  display: inline-flex;
+  align-items: center;
+  justify-content: flex-end;
+  float: right;
+  padding-right: 10px;
+}
+
+nav span {
+    padding: 10px 20px;
+    text-decoration: underline;
+    justify-content: flex-end;
+}
+
+.navi
+{
+  float: right;
+}
+
+.mission {
+  display: flex;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  margin-top: 0px;
+  align-items: center;
+}
+
+.mistext {
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+}
+
+.conpic {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.conpic img {
+  max-height: 200px;
+  max-width: 300px;
+  display: inline-flex;
+  padding: 20px 15px 10px 15px;
+  margin: 0;
+}
+
+.context {
+  align-items: center;
+}
+
+.location {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  display: flex;
+  flex-wrap: wrap;
+  height: 575px;
+  width: 1200px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.specloc {
+  margin: 15px 20px;
+  opacity: 1;
+  width: 300px;
+  align-items: center;
+  background-color: black;
+  display: inline-block;
+}
+.copyright {
+  text-align: left;
+  margin-left: 20px;
+}
+
+.lochead {
+  display: block;
+  width: 100%;
+}
+
+.end {
+  display: block;
+  height: 200px;
+}
+
+.conpic h4 {
+  margin: 0 auto;
+}
+
+.locs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lochead h2 {
+  margin: 0px;
+}
+
+.content {
+  margin: 50px auto;
+}
